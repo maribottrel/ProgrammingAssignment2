@@ -1,4 +1,4 @@
-## Calculating the inverse of a matrix
+## Calculating the inverse  of a matrix
 
 ## Caching the Inverse of a Matrix
 
@@ -9,7 +9,7 @@ makeCacheMatrix <- function(x = matrix()) {
     m <<- NULL
   }
   get <- function() x
-  setsolve <- function(mean) m <<- solve
+  setsolve <- function(solve) m <<- solve
   getsolve <- function() m
   list(set = set, get = get,
        setsolve = setsolve,
